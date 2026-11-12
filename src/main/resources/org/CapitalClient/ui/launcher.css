@@ -1,0 +1,181 @@
+
+/* ACCOUNTS PAGE */
+
+.accounts-page {
+    -fx-background-color: #101116;
+}
+
+.account-choice {
+    -fx-background-color: transparent;
+    -fx-border-color: #343540;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+
+.account-choice:hover {
+    -fx-border-color: #8968e9;
+    -fx-background-color: #191822;
+}
+
+.account-choice-selected {
+    -fx-border-color: #8968e9;
+    -fx-border-width: 2px;
+    -fx-background-color: #211c30;
+}
+
+.account-card-image {
+    -fx-background-color: linear-gradient(
+            to bottom right,
+            #30313c,
+            #171820
+    );
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.account-card-icon {
+    -fx-font-size: 54px;
+    -fx-text-fill: #c0aaff;
+}
+
+.account-card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4f4f7;
+    -fx-text-alignment: center;
+}
+
+.account-section-heading {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #858796;
+}
+
+.account-information {
+    -fx-background-color: #15161d;
+    -fx-border-color: #30313b;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.account-input {
+    -fx-background-color: #20212b;
+    -fx-border-color: #41414f;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #858796;
+    -fx-padding: 12px;
+}
+
+.account-input:focused {
+    -fx-border-color: #8968e9;
+}
+
+/* =========================================================
+   CAPITALCLIENT — ACCOUNTS PAGE POLISH
+   Append this block to the END of launcher.css.
+   Do not replace your existing launcher.css with this block.
+   ========================================================= */
+
+.accounts-page {
+    -fx-background-color: #101116;
+}
+
+.account-choice {
+    -fx-background-color: #171820;
+    -fx-border-color: #30313d;
+    -fx-border-width: 1px;
+    -fx-border-radius: 14px;
+    -fx-background-radius: 14px;
+    -fx-padding: 12px;
+    -fx-cursor: hand;
+}
+
+.account-choice:hover {
+    -fx-border-color: #8968e9;
+    -fx-background-color: #1d1b29;
+}
+
+.account-choice-selected {
+    -fx-border-color: #8968e9;
+    -fx-border-width: 2px;
+    -fx-background-color: #211c30;
+}
+
+.account-card-image {
+    -fx-background-color: linear-gradient(to bottom right, #30313c, #171820);
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+}
+
+.account-card-icon {
+    -fx-font-size: 48px;
+    -fx-text-fill: #c0aaff;
+}
+
+.account-card-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4f4f7;
+    -fx-text-alignment: center;
+}
+
+.account-section-heading {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 1px;
+    -fx-text-fill: #a99bbf;
+}
+
+.account-information {
+    -fx-background-color: #171820;
+    -fx-border-color: #30313b;
+    -fx-border-width: 1px;
+    -fx-border-radius: 14px;
+    -fx-background-radius: 14px;
+    -fx-padding: 20px;
+}
+
+.account-input {
+    -fx-background-color: #20212b;
+    -fx-border-color: #41414f;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #f4f4f7;
+    -fx-prompt-text-fill: #858796;
+    -fx-padding: 13px;
+}
+
+.account-input:focused {
+    -fx-border-color: #8968e9;
+    -fx-border-width: 1.5px;
+}
+
+.account-name {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4f4f7;
+}
+
+.microsoft-button {
+    -fx-background-color: #8968e9;
+    -fx-background-radius: 9px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 13px 18px;
+    -fx-cursor: hand;
+}
+
+.microsoft-button:hover {
+    -fx-background-color: #9a7af5;
+}
+
+.accounts-page .description {
+    -fx-text-fill: #9b9baa;
+    -fx-font-size: 13px;
+}
